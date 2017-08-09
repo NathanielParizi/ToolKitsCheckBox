@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.go.toolkitscheckbox.MainActivity">
+
+    <CheckBox
+        android:id="@+id/apples"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/oranges"
+        android:layout_alignLeft="@+id/oranges"
+        android:layout_alignStart="@+id/oranges"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Apples"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <CheckBox
+        android:id="@+id/oranges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dragonfruit"
+        android:layout_alignLeft="@+id/dragonfruit"
+        android:layout_alignStart="@+id/dragonfruit"
+        android:layout_marginBottom="11dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Oranges"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <CheckBox
+        android:id="@+id/dragonfruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Dragon Fruit"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="108dp" />
+</RelativeLayout>

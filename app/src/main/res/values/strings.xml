@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToolKitsCheckBox</string>
+    <string name="title">title</string>
+    <string name="message" />
+    <string name="yes">yes</string>
+    <string name="No">no</string>
+</resources>
